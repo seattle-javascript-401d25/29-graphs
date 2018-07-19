@@ -15,7 +15,7 @@
 
 #### Feature Tasks 
 * **Implemenent a breadth-first traversal of a graph**. 
-* Review the provided code for Djikstra's algorithm and comment each line of code on what it's doing. If you need to research other articles to understand Djikstra's algorithm, **please cite those articles with links in your comments**. 
+* Review the provided code for Djikstra's algorithm and write comments on what each line of code is doing. If you need to research other articles or documentation to understand Djikstra's algorithm or the code (i.e. you had to read the docs for the Priority Queue module that the code uses), **please cite that documentation with links in your comments**. 
 
 #### Tests
 * Write three test assertions for your breadth-first traversal 
