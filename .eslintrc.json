@@ -1,14 +1,10 @@
 {
-  "extends": ["airbnb-base","plugin:jest/recommended", "plugin:react/recommended"],
-  "env": {
-    "browser": true
-  },
+  "extends": ["airbnb-base","plugin:jest/recommended"],
   "parser": "babel-eslint",
-  "plugins": ["jest", "react"],
+  "plugins": ["jest"],
   "rules": {
     "arrow-body-style": "off",
     "global-require": "off",
-    "class-methods-use-this": "off",
     "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
     "no-multi-assign": "off",
     "no-param-reassign": ["error", { "props": false }],
