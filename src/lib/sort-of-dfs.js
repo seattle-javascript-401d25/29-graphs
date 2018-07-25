@@ -1,10 +1,8 @@
 export default (graph, startNode, goalNode) => {
   const stack = [];
  
- 
   const visitedNodes = new Set();
   
-   
   const parentMap = new Map();
  
   stack.push(startNode);
